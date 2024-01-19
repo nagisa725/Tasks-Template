@@ -1,40 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TODO TEMPLATE
 
-## Getting Started
+## 目的
 
-First, run the development server:
+TODO リストを作成し React の hooks 周りの利用方法を体系的にキャッチアップ
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+以下を要点としコードを書く
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- hooks を活用すること
+- 宣言的な記述になること
+- 機能面が重複するものは component, 関数にまとめること
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## TODO リストの要件
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+以下の情報を持たせることができるよう実装すること
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- タイトル: Todo リストに追加する項目のタイトル
+- 説明: Todo リストに追加する項目の説明
+- 作成日: 追加した項目の作成日
+- 緊急度: Hight, Medium, Low の３段階で識別できるようにすること
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 必要な機能
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- TODO の追加
+- TODO の編集
+- TODO の削除
