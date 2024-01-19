@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 380px;
+}
+
+.select {
+  height: 40px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  padding: 0px 4px;
+  font-weight: bold;
+  background-color: #2e2e2e;
+}

@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-top: 40px;
+  min-height: calc(100vh - 132px);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.title {
+  background: #019499;
+  background: linear-gradient(to right, #019499 0%, #3be5ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  font-weight: bold;
+}

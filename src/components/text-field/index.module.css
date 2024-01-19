@@ -1,0 +1,21 @@
+.input {
+  width: 380px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #2e2e2e;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  padding-left: 8px;
+  font-size: 16px;
+}

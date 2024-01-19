@@ -1,0 +1,22 @@
+.button {
+  height: 40px;
+  border: none;
+  border-radius: 100px;
+  width: 240px;
+  background: rgb(1, 148, 153);
+  background: linear-gradient(
+    117deg,
+    rgba(1, 148, 153, 1) 0%,
+    rgba(59, 229, 255, 1) 100%
+  );
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all ease 400ms;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
