@@ -5,14 +5,12 @@ import { TextArea } from "~/components/text-area";
 import { TextField } from "~/components/text-field";
 import styles from "~/styles/home.module.css";
 
-const DATA = [
-  {
-    title: "Fix Production Bug",
-    description: "Implement bug fixes in the production environment.",
-  },
-];
-
 export default function Home() {
+  /**
+   * ここにTODOリストのstateを宣言する
+   **/
+  // const [] = useState()
+
   return (
     <Layout>
       <div className={styles.form__wrapper}>
@@ -25,6 +23,7 @@ export default function Home() {
 
       <div className={styles.list__wrapper}>
         <h1 className={styles.list__title}>TODO LIST</h1>
+        {/* ここにTODO LISTを表示する */}
       </div>
     </Layout>
   );
